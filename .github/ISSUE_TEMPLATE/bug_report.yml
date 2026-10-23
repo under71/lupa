@@ -1,0 +1,20 @@
+name: Bug report · 버그 제보
+description: Something does not work as expected · 기대대로 동작하지 않아요
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes: {label: "Lupa version · Lupa 버전", placeholder: "2.0.1"}
+    validations: {required: true}
+  - type: input
+    id: macos
+    attributes: {label: "macOS version · macOS 버전", placeholder: "15.x"}
+  - type: textarea
+    id: what
+    attributes: {label: "What happened · 무슨 일이 있었나요", description: "Search query, expected result, actual result · 검색어, 기대한 결과, 실제 결과"}
+    validations: {required: true}
+  - type: textarea
+    id: steps
+    attributes: {label: "Steps to reproduce · 재현 방법"}
+  - type: markdown
+    attributes: {value: "Please do not paste private file names or document contents. · 개인 파일명이나 문서 내용은 붙이지 말아 주세요."}

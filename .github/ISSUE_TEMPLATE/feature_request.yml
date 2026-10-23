@@ -1,0 +1,11 @@
+name: Feature request · 기능 건의
+description: An idea to make Lupa better · Lupa를 더 좋게 만들 아이디어
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes: {label: "What are you trying to do? · 무엇을 하려고 하시나요?", description: "e.g. find only slide decks quickly · 예: 발표자료만 빨리 찾고 싶다"}
+    validations: {required: true}
+  - type: textarea
+    id: idea
+    attributes: {label: "Your idea · 제안"}
