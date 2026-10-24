@@ -20,11 +20,11 @@
 
 ## AI 에이전트와 함께
 
-Lupa에는 명령줄 도구와 [MCP 서버](https://github.com/paeyoungpark-web/lupa-mcp)가 있어서, Claude Code·Claude Desktop 등 MCP를 지원하는 도구가 Lupa의 색인으로 문서를 찾습니다 — **파일을 직접 열지 않고**.
+Lupa에는 명령줄 도구와 [MCP 서버](https://github.com/under71/lupa-mcp)가 있어서, Claude Code·Claude Desktop 등 MCP를 지원하는 도구가 Lupa의 색인으로 문서를 찾습니다 — **파일을 직접 열지 않고**.
 
 - 앱의 **설정 ▸ 일반**에서 한 번에 연결
 - 직접 등록: `npx -y lupa-mcp`
-- Claude Code 플러그인: [lupa-claude-plugin](https://github.com/paeyoungpark-web/lupa-claude-plugin)
+- Claude Code 플러그인: [lupa-claude-plugin](https://github.com/under71/lupa-claude-plugin)
 - 도구별 설정 방법: **[lupa.kr/agents.html](https://lupa.kr/agents.html)**
 
 ## 개인정보 — 직접 확인할 수 있습니다
@@ -49,7 +49,7 @@ App Store 개인정보 라벨: **데이터를 수집하지 않음**.
 
 ## 건의·문의
 
-- **버그·기능 건의** → [Issue 남기기](https://github.com/paeyoungpark-web/lupa/issues/new/choose) (한국어 환영)
+- **버그·기능 건의** → [Issue 남기기](https://github.com/under71/lupa/issues/new/choose) (한국어 환영)
 - **보안 문제** → [SECURITY.md](SECURITY.md) (공개 게시판에 올리지 말아 주세요)
 - 메일: lupa.app.kr@gmail.com
 

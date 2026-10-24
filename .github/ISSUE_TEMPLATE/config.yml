@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: Security problem · 보안 문제
-    url: https://github.com/paeyoungpark-web/lupa/blob/main/SECURITY.md
+    url: https://github.com/under71/lupa/blob/main/SECURITY.md
     about: Please report privately by email. · 공개 게시판 대신 메일로 알려 주세요.
   - name: AI agent setup guide · 에이전트 연결 안내
     url: https://lupa.kr/agents.html

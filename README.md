@@ -22,11 +22,11 @@ Free · macOS 14+ · Fully local · [lupa.kr](https://lupa.kr) · [한국어](RE
 
 ## Your AI agent can use it
 
-Lupa ships with a command-line tool and an [MCP server](https://github.com/paeyoungpark-web/lupa-mcp), so agents such as Claude Code, Claude Desktop and other MCP-capable tools can search your documents through Lupa's index — **without opening your files**.
+Lupa ships with a command-line tool and an [MCP server](https://github.com/under71/lupa-mcp), so agents such as Claude Code, Claude Desktop and other MCP-capable tools can search your documents through Lupa's index — **without opening your files**.
 
 - One-click setup: **Settings ▸ General** in the app
 - Or register the MCP server yourself: `npx -y lupa-mcp`
-- Claude Code plugin: [lupa-claude-plugin](https://github.com/paeyoungpark-web/lupa-claude-plugin)
+- Claude Code plugin: [lupa-claude-plugin](https://github.com/under71/lupa-claude-plugin)
 - Setup guide for each tool: **[lupa.kr/agents.html](https://lupa.kr/en/agents.html)**
 
 ![Agent integration](docs/screenshots/03-agent-integration.png)
@@ -53,7 +53,7 @@ App Store privacy label: **Data Not Collected**.
 
 ## Feedback
 
-- **Bug or feature request** → [open an issue](https://github.com/paeyoungpark-web/lupa/issues/new/choose) (Korean or English is fine)
+- **Bug or feature request** → [open an issue](https://github.com/under71/lupa/issues/new/choose) (Korean or English is fine)
 - **Security issue** → see [SECURITY.md](SECURITY.md) — please don't post it publicly
 - Email: lupa.app.kr@gmail.com
 
