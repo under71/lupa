@@ -1,7 +1,27 @@
 # Release notes · 릴리스 노트
 Lupa on the [Mac App Store](https://apps.apple.com/app/id6789231809). Newest first.
 
-## 2.0.2 — In App Review · 심사 중
+## 2.0.3 — In App Review · 심사 중
+
+- A new permissions screen on first launch. It updates the moment you allow a folder, and it also shows how to connect AI agents.
+- The contents of older Word (.doc) and RTF documents are now searchable. For formats whose contents can't be read yet (.xls, .ppt, Pages, Numbers, Keynote), the preview tells you they are found by file name only.
+- When you connect an AI agent, Settings warns you if Node.js is missing or installed where agents can't find it.
+- Fixed files that had been read successfully staying in the Issues list.
+- Fixed indexing running twice when adding a folder, password-protected documents and scanned PDFs being re-read on every launch, and new files not becoming searchable after indexing was paused.
+- Help now links to the AI agent connection guide and to support.
+
+<details><summary>한국어</summary>
+
+- 처음 실행할 때 보이는 권한 화면을 새로 만들었습니다. 폴더를 허용하면 바로 표시되고, AI 에이전트 연결도 이 화면에서 안내합니다.
+- 옛 워드(.doc)와 RTF 문서의 내용도 검색됩니다. 아직 내용을 읽지 못하는 형식(.xls·.ppt·Pages·Numbers·Keynote)은 미리보기에서 "파일명으로만 찾는다"고 알려 드립니다.
+- AI 에이전트를 연결할 때 Node.js가 없거나 에이전트가 찾지 못하는 곳에 설치돼 있으면 설정 화면에서 알려 드립니다.
+- 이미 정상으로 읽힌 파일이 '문제 목록'에 계속 남던 문제를 고쳤습니다.
+- 폴더를 추가할 때 인덱싱이 겹쳐 돌던 문제, 암호 문서·스캔 PDF를 앱을 열 때마다 다시 읽던 문제, 인덱싱을 멈춘 뒤 새 파일의 내용이 검색되지 않던 문제를 고쳤습니다.
+- 도움말에 AI 에이전트 연결 가이드와 문의 링크를 추가했습니다.
+
+</details>
+
+## 2.0.2 — 2026-11-14
 
 - Copies of the same file are now folded into one row, so duplicates scattered across Downloads and backup folders no longer crowd out your results. Turn on "Show copies" in the filters to see each one.
 - Duplicate report: see where copies pile up and how much space they take. Lupa never deletes files.

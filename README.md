@@ -15,7 +15,7 @@ Free · macOS 14+ · Fully local · [lupa.kr](https://lupa.kr) · [한국어](RE
 
 - **Search inside documents**, not just file names — PDF, Word, Excel, PowerPoint, Hangul (HWP/HWPX), plain text and Markdown, source code, and scanned PDFs and screenshots via on-device OCR.
 - **Many words, best match first** — files that match every word rank on top.
-- **Search conditions** — `f:folder`, `c:content`, `n:name`, `-exclude`, `"exact phrase"`, `.pdf`, `kind:pdf`, `size:>10mb`, `date:week`.
+- **Search conditions** — `f:folder`, `c:content`, `n:name`, `-exclude`, `"exact phrase"`, `.pdf`, `kind:pdf`, `kind:presentation`, `size:>10mb`, `date:week`, `date:7d`.
 - **Korean-aware** — finds words inside compounds and ignores attached particles.
 
 ![Multi-keyword search](docs/screenshots/02-multi-keyword.png)
